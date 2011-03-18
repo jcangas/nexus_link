@@ -1,4 +1,4 @@
-module Nexus
+module NexusLink
   module Models
     class Cliente < ActiveRecord::Base
       self.table_name = "CLIENTES"

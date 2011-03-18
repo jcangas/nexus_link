@@ -1,6 +1,6 @@
 require 'active_record'
-require 'nexus/models/articulo'
-require 'nexus/models/cliente'
-require 'nexus/models/pedido_venta'
-require 'nexus/models/linea_pedido'
+require 'nexus_link/models/articulo'
+require 'nexus_link/models/cliente'
+require 'nexus_link/models/pedido_venta'
+require 'nexus_link/models/linea_pedido'
 

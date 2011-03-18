@@ -1,4 +1,4 @@
-module Nexus
+module NexusLink
   module Models
     class PedidoVenta < ActiveRecord::Base
       self.table_name = "CABEALBV" #"CABEPEDV"

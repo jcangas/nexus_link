@@ -1,4 +1,4 @@
-module Nexus
+module NexusLink
   module Models
     class Articulo < ActiveRecord::Base
       self.table_name = "ARTICULO"
