@@ -1,11 +1,4 @@
-
-#require 'rake/testtask'
 require "bundler/gem_tasks"
-
-require 'nexus_link'
-
-Bundler::GemHelper.install_tasks
+require "version_info"
 
 VersionInfo::install_tasks(:target => NexusLink)
-
-#VersionInfo::RakeTasks.install(:class => NexusLink)
