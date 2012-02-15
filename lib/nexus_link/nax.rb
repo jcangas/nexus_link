@@ -47,7 +47,7 @@ module NexusLink
     end
     
     def self.create_enlace
-      nax_enl = Nexus::NAX::Enlace.new
+      nax_enl = NexusLink::NAX::Enlace.new
       nax_enl.RaiseOnException = false
       nax_enl.LoginUsuario(@conn['username'], @conn['password'])
       nax_enl.Iniciar(@conn['nax_empresa'])
