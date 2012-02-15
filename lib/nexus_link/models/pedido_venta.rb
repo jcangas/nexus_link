@@ -6,7 +6,7 @@ module NexusLink
       has_many :lineas, :class_name => 'LineaPedidoVenta', :foreign_key => 'IDALBV', :autosave => true
   
       def create
-        @nax_obj = Nexus::NAX::PedidoVenta.create(self.attributes)
+        @nax_obj = NAX::PedidoVenta.create(self.attributes)
         self.lineas.each {|l| nax_save_line(l) }
         @nax_obj.save
         @nax_obj = nil

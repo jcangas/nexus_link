@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Jorge L. Cangas"]
   s.email       = ["jorge.cangas@gmail.com"]
   s.homepage    = "http://github.com/jcangas/nexus_link"
-  s.summary     = %q{A Ruby gem to interopoerate with Nexus ERP (http://www.websie.com/)}
+  s.summary     = %q{A Ruby gem to interoperate with Nexus ERP (http://www.websie.com/)}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
